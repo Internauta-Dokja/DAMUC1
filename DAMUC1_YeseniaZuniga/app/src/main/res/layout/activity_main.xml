@@ -10,10 +10,141 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Registrarte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es rápido y fácil"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="Nombre"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="Apellido"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:hint="Número de celular o correo electrónico"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de nacimiento"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Género"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="107dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="118dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="119dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <RadioGroup
+        android:layout_width="373dp"
+        android:layout_height="62dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mujer"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hombre"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personalizado"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="343dp"
+        android:layout_height="50dp"
+        android:text="Es posible que las personas que usan nuestro servicio hayan subido tu información de contacto a Facebook. Más información."
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="346dp"
+        android:layout_height="66dp"
+        android:text="Al hacer click en &quot;Registrarte&quot; aceptas nuestras Condiciones, Politica de Privacidad y  la Politica de cookies. Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras."
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarte"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="543dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
